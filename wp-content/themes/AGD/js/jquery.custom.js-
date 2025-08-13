@@ -1,0 +1,170 @@
+( function( $ ) {
+	
+	// Scroll to anchor
+	$('a[href*=#]').click(function(event){
+		$('html, body').animate({
+			scrollTop: $( $.attr(this, 'href') ).offset().top
+		}, 500);
+		event.preventDefault();
+	});
+	
+	
+	//Header Search
+	$('.headerSearch').click(function(){
+		$(this).toggleClass('active');
+		if ($('#header_cart').hasClass('active')) {
+			$('#header_cart').removeClass('active');
+			$('#header_cart').hide('fast');
+			$('.headerCart').removeClass('active');
+		}
+		$('#header_search').toggleClass('active');
+		$('#header_search').slideToggle('fast');
+		$('#woocommerce-product-search-field').focus();
+		event.preventDefault();
+	});
+	
+	//Header Minicart
+	$('.headerCart').click(function(){
+		$(this).toggleClass('active');
+		if ($('#header_search').hasClass('active')) {
+			$('#header_search').removeClass('active');
+			$('#header_search').hide('fast');
+			$('.headerSearch').removeClass('active');
+		}
+		$('#header_cart').toggleClass('active');
+		$('#header_cart').slideToggle('fast');
+		event.preventDefault();
+	});
+	
+/*	$("#homeSlide").slick({
+		autoplay: true,
+		dots: true,
+		arrows: false,
+		infinite: true,
+		speed: 1000,
+		slidesToShow: 1,
+		slidesToScroll: 1
+	});*/
+	function slideHeight(){
+		WH = $(window).height();
+		HH = $('#header').outerHeight();
+		SH = (WH-HH)+'px';
+		$('.slide_item').css({'min-height':SH});
+	}
+	
+	function livePrice()	{
+		$('#LiveGoldPriceDiv').load('http://agdpreciousmetals.com/wp-content/themes/AGD/content/home-live-price.php');
+	}
+	
+
+	//Animate elements
+	var $animation_elements = $('.animation');
+	var $window = $(window);
+	
+	function check_if_in_view() {
+	  var window_height = $window.height();
+	  var window_top_position = $window.scrollTop();
+	  var window_bottom_position = (window_top_position + window_height);
+	 
+	  $.each($animation_elements, function() {
+		var $element = $(this);
+		var element_height = $element.outerHeight();
+		var element_top_position = $element.offset().top;
+		var element_bottom_position = (element_top_position + element_height);
+	 
+		//check to see if this current container is within viewport
+		if ((element_bottom_position >= window_top_position) &&
+			(element_top_position <= window_bottom_position)) {
+		  $element.addClass('in-view');
+		} else {
+		  $element.removeClass('in-view');
+		}
+	  });
+	}
+
+	$window.on('scroll resize', check_if_in_view);
+	$window.trigger('scroll');
+	//Animate elements
+
+	function removeNoJsClass() {
+		$( 'html:first' ).removeClass( 'no-js' );
+	}
+
+	/* Superfish the menu drops ---------------------*/
+	function superfishSetup() {
+		$('.menu').superfish({
+			delay: 200,
+			animation: {opacity:'show', height:'show'},
+			speed: 'fast',
+			cssArrows: true,
+			autoArrows:  true,
+			dropShadows: false
+		});
+	}
+
+	/* Portfolio Filter ---------------------*/
+	function isotopeSetup() {
+		var mycontainer = $('.pet_library');
+		mycontainer.isotope({
+			itemSelector: '.pet_library_item'
+		});
+	}
+	
+	function masonryGrid() {
+		var mycontainer = $('.masonry_grid');
+		mycontainer.isotope({
+			itemSelector: '.masonry_grid_item'
+		});
+	}
+	
+
+	/* Animating Menu Setup ---------------------*/
+	function navScrollSetup() {
+		$('#header').data('size','big');
+	}
+	
+/*function fixedHeader() {
+    if ( $(document).scrollTop() > 200){
+        $('#header').addClass('fixed-header');
+    } else {
+         $('#header').removeClass('fixed-header');
+    } 
+}*/
+	
+		
+	function modifyPosts() {
+		
+		/* Insert Line Break Before More Links ---------------------*/
+		$('<br />').insertBefore('.content a.more-link');
+		
+		/* Hide Comments When No Comments Activated ---------------------*/
+		$('.nocomments').parent().css('display', 'none');
+		
+		/* Animate Page Scroll ---------------------*/
+		$(".scroll").click(function(event){
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top}, 500);
+		});
+		
+		/* Fit Vids ---------------------*/
+		$('.feature-vid, .content').fitVids();
+		
+	}
+	
+	$( document )
+	.ready( removeNoJsClass )
+	.ready( navScrollSetup )
+	.ready( superfishSetup )
+	.ready( modifyPosts )
+	.ready( livePrice )
+	//.ready( thumbGallery )
+	.on( 'post-load', modifyPosts );
+	
+	$( window )
+	.load( isotopeSetup )
+	.load(masonryGrid)
+	//.scroll(fixedHeader)
+	.resize( isotopeSetup )
+	.resize(masonryGrid)
+	
+})( jQuery );
