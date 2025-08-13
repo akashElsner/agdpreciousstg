@@ -1,0 +1,170 @@
+# Translation of Plugins - Insert Headers and Footers by WPBeginner - Stable (latest release) in Dutch
+# This file is distributed under the same license as the Plugins - Insert Headers and Footers by WPBeginner - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-07-29 13:48:14+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: nl\n"
+"Project-Id-Version: Plugins - Insert Headers and Footers by WPBeginner - Stable (latest release)\n"
+
+#: ihaf.php:135
+msgid "Sorry, you are not allowed to edit this page."
+msgstr "Je mag deze pagina niet bewerken."
+
+#: ihaf.php:127
+msgid "Sorry, only have read-only access to this page. Ask your administrator for assistance editing."
+msgstr "Je hebt enkel alleen-lezen toegang tot deze pagina. Vraag je beheerder om hulp bij het bewerken."
+
+#. translators: %s: The `</body>` tag
+#: views/settings.php:57
+msgid "These scripts will be printed above the closing %s tag."
+msgstr "Deze scripts worden afgedrukt boven de afsluitende %s tag."
+
+#. translators: %s: The `<head>` tag
+#: views/settings.php:45
+msgid "These scripts will be printed just below the opening %s tag."
+msgstr "Deze scripts worden net onder de openingstag %s afgedrukt."
+
+#: views/settings.php:40
+msgid "Scripts in Body"
+msgstr "Scripts in Body"
+
+#. translators: %s: The `<head>` tag
+#: views/settings.php:33
+msgid "These scripts will be printed in the %s section."
+msgstr "Deze scripts worden afgedrukt in de sectie %s."
+
+#: views/sidebar.php:96
+msgid "Get the best WordPress Coming Soon Page plugin"
+msgstr "Download de beste WordPress Coming Soon Page-plugin"
+
+#: views/sidebar.php:95
+msgid "SeedProd"
+msgstr "SeedProd"
+
+#: views/sidebar.php:86
+msgid "Best WordPress Lead Generation Plugin"
+msgstr "Beste WordPress-plugin voor leadgeneratie"
+
+#: views/sidebar.php:85
+msgid "OptinMonster"
+msgstr "OptinMonster"
+
+#: views/sidebar.php:76
+msgid "Google Analytics Made Easy for WordPress"
+msgstr "Google Analytics gemakkelijk gemaakt voor WordPress"
+
+#: views/sidebar.php:75
+msgid "MonsterInsights"
+msgstr "MonsterInsights"
+
+#: views/sidebar.php:66
+msgid "Drag & Drop WordPress Form Builder"
+msgstr "Drag & Drop WordPress Form Builder"
+
+#: views/sidebar.php:65
+msgid "WPForms"
+msgstr "WPForms"
+
+#: views/sidebar.php:58
+msgid "Like this plugin? Check out our other WordPress plugins:"
+msgstr "Vind je deze plugin leuk? Bekijk onze andere WordPress-plugins:"
+
+#: views/sidebar.php:54
+msgid "Our WordPress Plugins"
+msgstr "Onze WordPress plugins"
+
+#: views/sidebar.php:43
+msgid "Boost Your WordPress SEO"
+msgstr "Boost je WordPress SEO"
+
+#: views/sidebar.php:38
+msgid "Improve WordPress Security"
+msgstr "Verbeter WordPress beveiliging"
+
+#: views/sidebar.php:33
+msgid "Speed Up WordPress"
+msgstr "WordPress versnellen"
+
+#: views/sidebar.php:27
+msgid "Some of our popular guides:"
+msgstr "Enkele van onze populaire gidsen:"
+
+#: views/sidebar.php:20
+msgid "WPBeginner blog"
+msgstr "WPBeginner blog"
+
+#. translators: %s: Link to WPBeginner blog
+#: views/sidebar.php:17
+msgid "Want to take your site to the next level? Check out our daily free WordPress tutorials on %s."
+msgstr "Wil je jouw site naar een hoger niveau tillen? Bekijk onze dagelijkse gratis WordPress-tutorials op %s."
+
+#: views/sidebar.php:9
+msgid "Improve Your Site"
+msgstr "Verbeter jouw site"
+
+#: views/settings.php:65
+msgid "Save"
+msgstr "Opslaan"
+
+#: views/settings.php:52
+msgid "Scripts in Footer"
+msgstr "Scripts in de footer"
+
+#: views/settings.php:28
+msgid "Scripts in Header"
+msgstr "Scripts in de Header"
+
+#: views/settings.php:2 views/settings.php:23
+msgid "Settings"
+msgstr "Instellingen"
+
+#: views/dashboard-notices.php:15
+msgid "to configure the plugin."
+msgstr "om de plugin te configureren."
+
+#: views/dashboard-notices.php:15
+msgid "Click here"
+msgstr "Klik hier"
+
+#. translators: %s: Name of this plugin
+#: views/dashboard-notices.php:11
+msgid "Thank you for installing %1$s!"
+msgstr "Bedankt voor het installeren van %1$s!"
+
+#: ihaf.php:150
+msgid "Settings Saved."
+msgstr "Instellingen opgeslagen."
+
+#: ihaf.php:141
+msgid "Invalid nonce specified. Settings NOT saved."
+msgstr "Ongeldige nonce aangegeven. Instellingen NIET opgeslagen."
+
+#: ihaf.php:138
+msgid "nonce field is missing. Settings NOT saved."
+msgstr "nonce veld niet aanwezig. Instellingen NIET opgeslagen."
+
+#: ihaf.php:122
+msgid "Sorry, you are not allowed to access this page."
+msgstr "Je hebt geen toestemming om deze pagina te bekijken."
+
+#. Author of the plugin
+msgid "WPBeginner"
+msgstr "WPBeginner"
+
+#. Description of the plugin
+msgid "Allows you to insert code or text in the header or footer of your WordPress blog"
+msgstr "Het maakt het mogelijk om code of tekst in te voegen in de header of footer van een WordPress blog pagina"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "http://www.wpbeginner.com/"
+msgstr "http://www.wpbeginner.com/"
+
+#. Plugin Name of the plugin
+msgid "Insert Headers and Footers"
+msgstr "Insert Headers and Footers"

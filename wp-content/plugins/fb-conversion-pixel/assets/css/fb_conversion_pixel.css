@@ -1,0 +1,44 @@
+.email-to-users-compose-section{
+    width: 60%;
+    float: left;
+	margin-right:1%;
+}
+.email-to-users-sidebar{
+    width: 34%;
+    float: left;
+}
+.email-to-users-white{
+background: #fff;
+}.email-to-users-users-container li {    display: inline;    border: 1px solid;    border-radius: 4px;    margin: 4px;    line-height: 33px;    padding: 3px;	cursor: pointer;}.email-to-users-to {    min-height: 100px;}.email-to-users-to span{    border: 1px solid;    border-radius: 4px;    margin: 4px;    line-height: 33px;    padding: 3px;}.full_width{width: 100%;}.users_icon {    vertical-align: middle;    margin: 5px;}
+
+.fbp_btn{
+	margin: 25px;
+	padding: 10px 15px;
+	background-color: #008ec2;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 3px;
+	display:inline;
+}
+.fbp_btn:hover{
+	color:#fff;
+	background-color: #006799;
+}
+
+.sidefix h2 {
+	border-bottom: 1px solid #eee;
+	border-top: 1px solid #eee;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	background-color: orange;
+	color: #fff;
+	padding-left: 10px;
+}
+
+.fbp_links {
+	margin: 30px 0 !important;
+}
+
+.preview_link{
+	margin:15px 0;
+} 

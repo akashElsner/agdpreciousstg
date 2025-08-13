@@ -1,0 +1,126 @@
+﻿<ion-view style="height: 100%;" title="Gold">
+    <ion-content class="has-header" scroll="false" style="max-width: 900px">
+        <div id="Gold" style="height: 470px">
+            <div id="metalBreakdownCalculator" class="br_metalBreakdownContainer" style="height: 467px">
+                <div id="metalContainer" class="br_metalContainer">
+                    <div id="metalAskPriceContainer" class="br_metalPriceContainer">
+                        <div id="metalAskTile" class="metalPriceTitle lightGrayColor">ASK PRICE</div>
+                        <div id="metalAskPrice" class="br_metalPrice darkGrayColor">${{(metalAskGold * weightMultiplierGold).toFixed(2)}}</div>
+                        <div id="metalBlank" class="metaldiffPrice"></div>
+                    </div>
+                    <div id="metalBidPriceContainer" class="br_metalPriceContainer">
+                        <div id="metalBidTile" class="metalPriceTitle lightGrayColor">BID PRICE</div>
+                        <div id="metalBidPrice" class="br_metalPrice darkGrayColor">${{(metalBidGold * weightMultiplierGold).toFixed(2)}}</div>
+                        <div id="metalAskDiff" class="metaldiffPrice diffPriceMargin" ng-class="metalChange >= 0 ? 'positveValue' : 'negativeValue'">{{(metalChangeGold * weightMultiplierGold).toFixed(2) | customCurrency}}</div>
+                    </div>
+                </div>
+                <div style="height: 42px; width: 50%; margin-left: 25%;">
+                    <div class="weightGroup2" style="margin-top: 10px">
+                        <radio-button-group model="goldWeight" options="metalWeightOptions" id="'id'" name="'name'" suffix="'default'" update-fn="setMetalWeightMultiplier(option, 'Gold')"></radio-button-group>
+                    </div>
+                </div>
+                <div style="text-align: center; height: calc(75% - 50px);">
+                    <div style="height: 14.28%;" ng-repeat="item in goldBreakdown" ng-class-odd="'rowLightColor'" ng-class-even="'rowDarkColor'">
+                        <div class="largeTextColor verticalCenter breakdownFont breakdownPaddingLeft" style="text-align: right; padding-right: calc(50% - 35px - 20px);  width: 50%; float: left">{{item.display}}</div>
+                        <div class="largeTextColor verticalCenter breakdownFont breakdownPaddingRight" style="text-align: right; width: 50%; float: left">${{(metalBidGold * weightMultiplierGold * item.value).toFixed(2)}}</div>
+                    </div>
+                </div>
+            </div>
+            <div class="splitScreenGraphContainer">
+                <div class="grayTextColor" style="height:30px; line-height: 30px; text-align:center;">
+                    <div class="graphHighLow" style="width: 50%; float: left">{{minGoldGraphValue}}</div>
+                    <div class="graphHighLow" style="width: 50%; float: left">{{maxGoldGraphValue}}</div>
+                </div>
+                <div id="goldChart" style="width: calc(100% -  10px);
+                            margin-left: 5px; margin-right: 5px;
+                            height: 400px;"></div>
+                <div class="zoomgroup" style="width: 100%; text-align: center;">
+                    <radio-button-group model="dateZoomGold" options="dateZoomOptions" id="'id'" name="'name'" suffix="'default'" update-fn="updateGraphZoom(option, 'Gold')"></radio-button-group>
+                </div>
+            </div>
+        </div>
+        <div class="lightGrayColor" style="margin-bottom: 20px; width: 100%; height: 25px; text-align: center !important; line-height: 29px; background-color: white;">Last updated on {{lastUpdateTime}}</div>
+        <div id="Silver" style="height: 470px">
+            <div class="gold metalHeader">Silver</div>
+            <div id="metalBreakdownCalculator" class="br_metalBreakdownContainer" style="height: 467px">
+                <div id="metalContainer" class="br_metalContainer">
+                    <div id="metalAskPriceContainer" class="br_metalPriceContainer">
+                        <div id="metalAskTile" class="metalPriceTitle lightGrayColor">ASK PRICE</div>
+                        <div id="metalAskPrice" class="br_metalPrice darkGrayColor">${{(metalAskSilver * weightMultiplierSilver).toFixed(2)}}</div>
+                        <div id="metalBlank" class="metaldiffPrice"></div>
+                    </div>
+                    <div id="metalBidPriceContainer" class="br_metalPriceContainer">
+                        <div id="metalBidTile" class="metalPriceTitle lightGrayColor">BID PRICE</div>
+                        <div id="metalBidPrice" class="br_metalPrice darkGrayColor">${{(metalBidSilver * weightMultiplierSilver).toFixed(2)}}</div>
+                        <div id="metalAskDiff" class="metaldiffPrice diffPriceMargin" ng-class="metalChange >= 0 ? 'positveValue' : 'negativeValue'">{{(metalChangeSilver * weightMultiplierSilver).toFixed(2) | customCurrency}}</div>
+                    </div>
+                </div>
+                <div style="height: 42px; width: 50%; margin-left: 25%;">
+                    <div class="weightGroup2" style="margin-top: 10px">
+                        <radio-button-group model="silverWeight" options="metalWeightOptions" id="'id'" name="'name'" suffix="'default'" update-fn="setMetalWeightMultiplier(option, 'Silver')"></radio-button-group>
+                    </div>
+                </div>
+                <div style="text-align: center; height: calc(75% - 50px);">
+                    <div style="height: 14.28%;" ng-repeat="item in silverBreakdown" ng-class-odd="'rowLightColor'" ng-class-even="'rowDarkColor'">
+                        <div class="largeTextColor verticalCenter breakdownFont breakdownPaddingLeft" style="text-align: right; padding-right: calc(50% - 35px - 20px);  width: 50%; float: left">{{item.display}}</div>
+                        <div class="largeTextColor verticalCenter breakdownFont breakdownPaddingRight" style="text-align: right; width: 50%; float: left">${{(metalBidSilver * weightMultiplierSilver * item.value).toFixed(2)}}</div>
+                    </div>
+                </div>
+            </div>
+            <div class="splitScreenGraphContainer">
+                <div class="grayTextColor" style="height:30px; line-height: 30px; text-align:center;">
+                    <div class="graphHighLow" style="width: 50%; float: left">{{minSilverGraphValue}}</div>
+                    <div class="graphHighLow" style="width: 50%; float: left">{{maxSilverGraphValue}}</div>
+                </div>
+                <div id="silverChart" style="width: calc(100% -  10px);
+                            margin-left: 5px; margin-right: 5px;
+                            height: 400px;"></div>
+                <div class="zoomgroup" style="width: 100%; text-align: center;">
+                    <radio-button-group model="dateZoomSilver" options="dateZoomOptions" id="'id'" name="'name'" suffix="'default'" update-fn="updateGraphZoom(option,'Silver')"></radio-button-group>
+                </div>
+            </div>
+        </div>
+        <div class="lightGrayColor" style="margin-bottom: 20px; width: 100%; height: 25px; text-align: center !important; line-height: 29px; background-color: white;">Last updated on {{lastUpdateTime}}</div>
+        <div id="Platinum" style="height: 470px; margin-top: 70px">
+            <div class="gold metalHeader">Platinum</div>
+            <div id="metalBreakdownCalculator" class="br_metalBreakdownContainer" style="height: 467px">
+                <div id="metalContainer" class="br_metalContainer">
+                    <div id="metalAskPriceContainer" class="br_metalPriceContainer">
+                        <div id="metalAskTile" class="metalPriceTitle lightGrayColor">ASK PRICE</div>
+                        <div id="metalAskPrice" class="br_metalPrice darkGrayColor">${{(metalAskPlatinum * weightMultiplierPlatinum).toFixed(2)}}</div>
+                        <div id="metalBlank" class="metaldiffPrice"></div>
+                    </div>
+                    <div id="metalBidPriceContainer" class="br_metalPriceContainer">
+                        <div id="metalBidTile" class="metalPriceTitle lightGrayColor">BID PRICE</div>
+                        <div id="metalBidPrice" class="br_metalPrice darkGrayColor">${{(metalBidPlatinum * weightMultiplierPlatinum).toFixed(2)}}</div>
+                        <div id="metalAskDiff" class="metaldiffPrice diffPriceMargin" ng-class="metalChange >= 0 ? 'positveValue' : 'negativeValue'">{{(metalChangePlatinum * weightMultiplierPlatinum).toFixed(2) | customCurrency}}</div>
+                    </div>
+                </div>
+                <div style="height: 42px; width: 50%; margin-left: 25%;">
+                    <div class="weightGroup2" style="margin-top: 10px">
+                        <radio-button-group model="platinumWeight" options="metalWeightOptions" id="'id'" name="'name'" suffix="'default'" update-fn="setMetalWeightMultiplier(option, 'Platinum')"></radio-button-group>
+                    </div>
+                </div>
+                <div style="text-align: center; height: calc(75% - 50px);">
+                    <div style="height: 14.28%;" ng-repeat="item in platinumBreakdown" ng-class-odd="'rowLightColor'" ng-class-even="'rowDarkColor'">
+                        <div class="largeTextColor verticalCenter breakdownFont breakdownPaddingLeft" style="text-align: right; padding-right: calc(50% - 35px - 20px);  width: 50%; float: left">{{item.display}}</div>
+                        <div class="largeTextColor verticalCenter breakdownFont breakdownPaddingRight" style="text-align: right; width: 50%; float: left">${{(metalBidPlatinum * weightMultiplierPlatinum * item.value).toFixed(2)}}</div>
+                    </div>
+                </div>
+            </div>
+            <div class="splitScreenGraphContainer">
+                <div class="grayTextColor" style="height:30px; line-height: 30px; text-align:center;">
+                    <div class="graphHighLow" style="width: 50%; float: left">{{minPlatinumGraphValue}}</div>
+                    <div class="graphHighLow" style="width: 50%; float: left">{{maxPlatinumGraphValue}}</div>
+                </div>
+                <div id="platinumChart" style="width: calc(100% -  10px);
+                            margin-left: 5px; margin-right: 5px;
+                            height: 400px;"></div>
+                <div class="zoomgroup" style="width: 100%; text-align: center;">
+                    <radio-button-group model="dateZoomPlatinum" options="dateZoomOptions" id="'id'" name="'name'" suffix="'default'" update-fn="updateGraphZoom(option,'Platinum')"></radio-button-group>
+                </div>
+            </div>
+        </div>
+        <div class="lightGrayColor" style="  margin-bottom: 20px; width: 100%; height: 25px; text-align: center !important; line-height: 29px; background-color: white;">Last updated on {{lastUpdateTime}}</div>
+    </ion-content>
+</ion-view>

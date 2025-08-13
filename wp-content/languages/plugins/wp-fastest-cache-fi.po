@@ -1,0 +1,71 @@
+# Translation of Development (trunk) in Finnish
+# This file is distributed under the same license as the Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2016-01-20 09:22:44+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.1.0-alpha\n"
+"Project-Id-Version: Development (trunk)\n"
+
+#: wpFastestCache.php:1249
+msgid "Once Every 1 Minute"
+msgstr "Kerran minuutissa"
+
+#: wpFastestCache.php:1255
+msgid "Once Every 5 Minutes"
+msgstr "Kerran 5 minuutissa"
+
+#: wpFastestCache.php:1261
+msgid "Once Every 15 Minutes"
+msgstr "Kerran 15 minuutissa"
+
+#: wpFastestCache.php:1267
+msgid "Twice an Hour"
+msgstr "Kahdesti tunnissa"
+
+#: wpFastestCache.php:1273
+msgid "Once an Hour"
+msgstr "Kerran tunnissa"
+
+#: wpFastestCache.php:1279
+msgid "Once Every 6 Hours"
+msgstr "6-tunnin välein"
+
+#: wpFastestCache.php:1285
+msgid "Once a Day"
+msgstr "Kerran päivässä"
+
+#: wpFastestCache.php:1291
+msgid "Once a Week"
+msgstr "Kerran viikossa"
+
+#: wpFastestCache.php:1297
+msgid "Once a Month"
+msgstr "Kerran kuukaudessa"
+
+#: wpFastestCache.php:1303
+msgid "Once a Year"
+msgstr "Kerran vuodessa"
+
+#. Plugin Name of the plugin/theme
+msgid "WP Fastest Cache"
+msgstr "WP Fastest Cache"
+
+#. Plugin URI of the plugin/theme
+msgid "http://wordpress.org/plugins/wp-fastest-cache/"
+msgstr "http://wordpress.org/plugins/wp-fastest-cache/"
+
+#. Description of the plugin/theme
+msgid "The simplest and fastest WP Cache system"
+msgstr "Yksinkertaisin ja nopein WP-välimuistijärjestelmä"
+
+#. Author of the plugin/theme
+msgid "Emre Vona"
+msgstr "Emre Vona"
+
+#. Author URI of the plugin/theme
+msgid "http://tr.linkedin.com/in/emrevona"
+msgstr "http://tr.linkedin.com/in/emrevona"

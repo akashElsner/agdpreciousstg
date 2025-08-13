@@ -1,0 +1,302 @@
+/* Empty. Add your own CSS if you like */
+
+* { font-family: 'MyWebFont', texgyreherosregular !important;}
+
+
+/*.bar-header {
+  max-width: 900px;
+  height: 50px;
+}*/
+
+.scroll {
+    height: 100%;
+}
+
+.has-header {
+    top: 50px;
+}
+
+.bar.bar-stable {
+    /*height: 13% !important;*/
+    background-color: #737C83;
+    background-image: none;
+    border: none;
+    padding: 0 !important;
+    margin: 0 !important;
+    max-width: 900px;
+    height: 50px;  
+}
+
+.bar.bar-stable .title {
+  color: #D0B57D;
+  font-size: 30px;
+}
+
+.metalHeader {
+    background-color: #737C83;
+    width: 100%; 
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 30px;
+}
+
+/*http://zerosixthree.se/vertical-align-anything-with-just-3-lines-of-css/*/
+.verticalCenter {
+    position: relative !important;
+    top: 50% !important;
+    -webkit-transform: translateY(-50%) !important;
+    -ms-transform: translateY(-50%) !important;
+    transform: translateY(-50%) !important;
+}
+
+
+
+.verticalBottom {
+    position: relative;
+    top: 100%;
+    -webkit-transform: translateY(-100%);
+    -ms-transform: translateY(-100%);
+    transform: translateY(-100%);
+}
+
+
+/*About Us */
+.aboutUsHeader {
+    font-size: 19px;
+    margin-top: 15px;
+    margin-bottom: 13px;
+}
+
+.aboutUsText {
+    font-size: 16px;
+    margin-bottom: 40px
+}
+
+.item {
+    border-style: none;
+}
+
+
+/*AUD USD Toggle Button*/
+.currencyToggleButton {
+    right: 5px;
+    height: 35px;
+    width: 60px;
+    font-size: 18px;
+    border-color: #505960;
+    background-color: #505960;
+    border-style: solid;
+    border-radius: 1.25vh;
+    position: absolute !important;
+    /*top: 47.5% !important;*/
+    -webkit-transform: translateY(-50%) !important;
+    -ms-transform: translateY(-50%) !important;
+    transform: translateY(-50%) !important;
+    padding: 0;
+}
+
+/*Colours*/
+.positveValue {
+    color: #489118;
+}
+
+.negativeValue {
+    color: #DE4344;
+}
+
+.gold {
+    color: #D0B57D;
+}
+
+.standardTextColor {
+    color: #5D5D5D;
+}
+
+.largeTextColor {
+    color: #5D5D5D;
+}
+
+.grayTextColor {
+    color: #909BA2;
+}
+
+.lightGrayColor {
+    color: #A5A5A5;
+}
+
+.darkGrayColor {
+    color: #5D5D5D;
+}
+
+.rowDarkColor {
+    background-color: #F5F5F5;
+}
+
+.rowLightColor {
+    background-color: white;
+}
+
+
+/*Metal Break Down Styles*/
+.br_metalContainer {
+     /*border-bottom-width: 1px; 
+     border-bottom-color: #EFEFEF; 
+     border-bottom-style: solid;*/
+     width: 100%;
+        height: 25%;
+        text-align: center;
+}
+
+.br_metalPriceContainer {
+     width: 50%;
+     height: 65%;
+     float: left;
+}
+
+/*.br_metalContainer {
+        width: 100%;
+        height: 25%;
+        text-align: center;
+	}*/
+
+/*.splitScreenGraph {
+    width: 50%;
+    height: 100%;
+    float:left;
+}*/
+
+
+
+
+
+.canvasjs-chart-container {
+    /*height: 300px !important;*/ 
+    position: inherit !important;
+    /*width: 100%;*/
+}
+
+.canvasjs-chart-toolbar {
+    visibility: collapse;
+}
+
+
+
+/*Overview Page*/
+.lastUpdatedFooter {
+    position: absolute;
+    height: 20px;
+    text-align: center;
+    /*line-height: 10px;*/
+    /*color: #5D5D5D;*/
+    background-color: white;
+    bottom: 0px;
+    width: 100%;
+}
+
+.overviewContentArea {
+    /*height: calc(93% - 20px);*/
+    position: absolute;
+    width: 100%;
+}
+
+
+
+
+
+.overviewContentBackgroundColour {
+        background-color: white; 
+    }
+
+
+
+ 
+
+    /*Overview Landscape*/
+    .metalContainer {
+        width: 33.33%;
+        height: 100%;
+        float: left;
+        text-align: center;
+    }
+
+    .metalPriceContainer {
+        width: 100%;
+        height: 35%
+    }
+
+    /*.metalHeader {
+        height: 20%;
+        font-size: 3vw;
+        padding-top: 2vw;
+    }*/
+
+
+/*********************************************************/
+.metalPriceTitle {
+  font-size: 20px;
+  margin-top: 7px;
+}
+
+    .metalPrice {
+        height: 45%;
+        font-size: 5vw;
+        padding-top: 3vh;
+    }
+
+    
+/******************************************************************/
+.br_metalPrice {
+    font-size: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+    .overviewContentArea {
+        height: calc(88% - 20px);
+    }
+
+    .metalWeightContainerLarge {
+        height: 12%;
+    }
+
+    /*.lastUpdatedFooter {
+        line-height: 20px;
+    }*/
+
+
+
+    /*Metal Breakdown Prices Landscape*/
+    .br_metalBreakdownContainer {
+        width: 50%;
+        height: 100%;
+        float: left;
+    }
+
+/******************************************************/
+.breakdownFont{
+        font-size: 20px;
+}
+
+
+
+    .splitScreenGraphContainer {
+        width: 50%;
+        height: 100%;
+        float:left;
+    }
+
+/****************************************************************/
+.graphHighLow {
+  font-size: 15px;
+}
+
+    .landscapeGraph {
+        width: calc(100% -  10px);
+        margin-left: 5px; 
+        margin-right: 5px;
+        height: 400px;
+        /*height: calc(100% - 30px - 45px);*/
+    }
+

@@ -1,0 +1,205 @@
+.AGD_Calculator{
+	max-width:500px;
+	width:100%;
+	background-color:#31373e;
+	color:#fff;
+	margin:0px auto;
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+}
+/*Calc Header*/
+.Calc_Header{
+	display:table;
+	width:100%;
+	table-layout:fixed;
+	border-collapse:collapse;
+	border-bottom:1px solid #d7bf89;
+}
+.Calc_Header_Cell{
+	display:table-cell;
+	vertical-align:middle;
+	padding:20px 5px;
+	text-align:center;
+}
+.Calc_Header_Cell:first-child{
+	text-align:left;
+	padding-left:20px;
+}
+.Calc_Header_Cell:last-child{
+	text-align:right;
+	padding-right:20px;
+}
+.Calc_Header_Cell select{
+	display:inline-block;
+	border:1px solid #d7bf89;
+	color:#d7bf89;
+	background-color:transparent;
+	padding:0px;
+	text-transform:uppercase;
+	text-align:center;
+	font-size:16px;
+}
+.Calc_Header_Cell select option{
+	padding:10px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	border:none;
+	box-shadow:none;
+   -webkit-box-shadow:none;
+}
+
+.currencyList{
+	display:none !important;
+}
+.currencyList.active{
+	display:inline-block !important;
+}
+
+/**Calc panel**/
+.Calc_Panel{
+	display:none;
+}
+.Calc_Panel.active{
+	display:block;
+}
+/**Unit Tabs**/
+.Unit_Tabs{
+	display:block;
+	margin:0x;
+	padding:20px 0px;
+	text-align:center;
+	border-bottom:1px solid #d7bf89;
+}
+.Unit_Tabs li{
+	display:inline-block;
+	padding:10px 20px;
+	margin:0px 10px;
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	border:1px solid #d7bf89;
+	cursor:pointer;
+	color:#d7bf89
+}
+.Unit_Tabs li.active{
+	color:#31373e;
+	background-color:#d7bf89;	
+}
+
+.bidprice_title{
+	text-align:center;
+	padding-top:20px;
+}
+.bid_feed{
+	font-size:30px;
+	font-weight:800;
+	text-align:center;
+}
+.PriceCalc_Table{
+	display:table;
+	table-layout:fixed;
+	border-collapse:collapse;
+	width:100%;
+}
+.PriceCalc_Row{
+	display:table-row;
+	border-bottom:1px solid rgba(215, 191, 137,0.3);
+}
+.PriceCalc_Cell{
+	display:table-cell;
+	vertical-align:middle;
+	text-align:center;
+	padding:20px;
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	font-size:18px;
+}
+.PriceCalc_Cell input[type="text"]{
+	border:1px solid #d7bf89;
+	line-height:1;
+	padding:10px;
+	margin:0px;
+	background-color:rgba(215, 191, 137,0.3);
+	color:#fff;
+}
+.purity_cell{
+	color:#d7bf89;
+}
+.total_cell{
+}
+.unitBox{
+	max-width:200px;
+}
+.total_cell input[type="text"]{
+	border:none;
+	text-align:center;
+	background-color:transparent;
+}
+.calcButton{
+	display:inline-block;
+	border:1px solid #d7bf89;
+	font-size:16px;
+	font-family:"ProximaNova-Regular";
+	padding:10px 20px;
+	color:#d7bf89;
+	background-color:transparent;
+	box-shadow:none;
+	-webkit-box-shadow:none;
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	cursor:pointer;
+	text-transform:uppercase;
+	letter-spacing:normal;
+}
+.calcButton i{
+	display:none;
+}
+.calcButton span{
+	display:block;
+}
+.calcButton:hover{
+	color:#31373e;
+	background-color:#d7bf89;
+}
+
+@media only screen and (max-width: 600px) {
+.Calc_Header_Cell:first-child{
+	width:40px;
+}
+.Calc_Header_Cell select{
+	font-size:14px;
+}
+.Calc_Header_Cell select option{
+	padding:5px;
+}
+.Unit_Tabs li{
+	margin:0px 5px;
+	padding:5px 10px;
+	font-size:12px;
+}
+.bid_feed{
+	font-size:22px;
+	
+}
+.PriceCalc_Cell{
+	font-size:14px;
+	padding:10px 5px;
+}
+.PriceCalc_Cell input[type="text"]{
+	font-size:14px;
+	padding:5px;
+}
+.PriceCalc_Cell.total_cell{
+	width:40%;
+}
+.calcButton{
+	font-size:14px;
+	padding:5px 10px;
+}
+.calcButton i{
+	display:inline-block;
+}
+.calcButton span{
+	display:none;
+}
+}

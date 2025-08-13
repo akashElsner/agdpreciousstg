@@ -1,0 +1,9 @@
+/************************************************
+*	Remove Filters 								*
+************************************************/
+
+#navigation, .btn, a.button, .reply a, #searchsubmit, #prevLink a, #nextLink a, .more-link,
+#submit, #comments #respond input#submit, .container .gform_wrapper input.button {
+	background-image: none;
+	filter: none;
+	}

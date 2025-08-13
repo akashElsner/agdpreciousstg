@@ -1,0 +1,1171 @@
+# Translation of Plugins - LightStart &#8211; Maintenance Mode, Coming Soon and Landing Page Builder - Stable (latest release) in Chinese (Taiwan)
+# This file is distributed under the same license as the Plugins - LightStart &#8211; Maintenance Mode, Coming Soon and Landing Page Builder - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-03-31 19:04:14+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.0.0-alpha.4\n"
+"Language: zh_TW\n"
+"Project-Id-Version: Plugins - LightStart &#8211; Maintenance Mode, Coming Soon and Landing Page Builder - Stable (latest release)\n"
+
+#: views/settings.php:197
+msgid "You are using a custom template from your theme/child theme folder."
+msgstr "這個網站使用的是目前使用的佈景主題/子佈景主題資料夾中的自訂範本。"
+
+#. translators: Optimole url
+#: views/wizard.php:79
+msgid "Templates would have pre-optimized images and all of your website's images would be delivered via Amazon Cloudfront CDN, resulting in an ≈ 80%% increase in speed, with <a href=\"%1$s\" target=\"_blank\">Optimole%2$s</a>."
+msgstr "範本使用已預先最佳化的圖片，且這個網站的圖片可以使用 <a href=\"%1$s\" target=\"_blank\">Optimole%2$s</a> 外掛，透過 Amazon Cloudfront CDN 傳遞這個網站的全部圖片，提升大約 80%% 的速度。"
+
+#: views/wizard.php:71
+msgid "Image and speed optimisation"
+msgstr "圖片及速度最佳化"
+
+#: views/wizard.php:37
+msgid "Pick your template below, you can always customise it later."
+msgstr "請在下方選取範本，並且可以在稍後自訂範本。"
+
+#. translators: Otter url
+#: views/wizard.php:28
+msgid "Get started with custom templates, and build engaging pages using Contact forms, Popups and more, with <a href=\"%1$s\" target=\"_blank\">Otter%2$s</a>."
+msgstr "選取範本後便可開始使用，並使用 <a href=\"%1$s\" target=\"_blank\">Otter%2$s</a> 建置如聯絡表單、彈出式訊息內容等吸引目光的頁面。"
+
+#: views/wizard.php:22
+msgid "Select the type of page you want"
+msgstr "選取要使用的頁面類型"
+
+#: views/network-settings.php:37
+msgid "Deactivated for all sites"
+msgstr "停用於全部網站"
+
+#: views/network-settings.php:36
+msgid "Activated on all sites"
+msgstr "啟用於全部網站"
+
+#: views/network-settings.php:25
+msgid "Enable network mode"
+msgstr "啟用多站網路模式"
+
+#: includes/classes/wp-maintenance-mode.php:211
+msgid "Maintenance mode"
+msgstr "網站維護模式"
+
+#: views/settings.php:262
+msgid "Stay in the loop for more templates!"
+msgstr "進一步了解範本相關資訊。"
+
+#: views/settings.php:260
+msgid "Pick one of our starter templates for your maintenance or coming soon page. You can always customize them based on your needs."
+msgstr "請在我們提供的網站維護頁面或網站即將上線頁面中擇一選取，選取後便可依需求自訂頁面內容。"
+
+#: includes/classes/wp-maintenance-mode-admin.php:1250
+msgid "Learn more about Otter."
+msgstr "進一步了解 Otter"
+
+#. translators: %1$s %2$s bold text tags
+#: includes/classes/wp-maintenance-mode-admin.php:1248
+msgid "These templates make use of %1$s Otter Blocks %2$s powerful features, which will be installed and activated."
+msgstr "安裝並啟用 %1$sOtter Blocks%2$s 後，這些範本便能使用它帶來的強大功能。"
+
+#: includes/classes/wp-maintenance-mode-admin.php:211 views/wizard.php:90
+msgid "I don’t want to use a template"
+msgstr "不使用範本"
+
+#: includes/classes/wp-maintenance-mode-admin.php:209
+msgid "I don’t want to use a Landing Page Template"
+msgstr "不使用到達網頁範本"
+
+#: includes/classes/wp-maintenance-mode-admin.php:208
+msgid "I don’t want to use a Coming Soon Template"
+msgstr "不使用網站即將上線頁面範本"
+
+#: includes/classes/wp-maintenance-mode-admin.php:207
+msgid "I don’t want to use a Maintenance Template"
+msgstr "不使用網站維護頁面範本"
+
+#: includes/classes/wp-maintenance-mode-admin.php:993
+msgid "WP Maintenance Mode is now LightStart. Enjoy the same features, more templates and new landing pages building compatibility."
+msgstr "WP Maintenance Mode 現以 LightStart 這個新名稱重新出發，擁有原本全部的功能、更多的範本，以及全新的到達網頁編輯器功能。"
+
+#: views/settings.php:231
+msgid "Select the page that will be used as the Maintenance, Coming Soon or Landing page."
+msgstr "選取要用於通知網站維護模式、網站即將上線或到達網頁的頁面"
+
+#: includes/classes/wp-maintenance-mode.php:1053
+msgid "LightStart template"
+msgstr "LightStart 範本"
+
+#: includes/classes/wp-maintenance-mode.php:226
+msgid "Coming Soon Page"
+msgstr "[網站即將上線] 頁面"
+
+#: includes/classes/wp-maintenance-mode.php:212
+#: includes/classes/wp-maintenance-mode.php:228
+msgid "Landing Page"
+msgstr "到達網頁"
+
+#: includes/classes/wp-maintenance-mode-admin.php:330
+#: includes/classes/wp-maintenance-mode-admin.php:331
+msgid "LightStart"
+msgstr "LightStart"
+
+#. Plugin Name of the plugin
+msgid "LightStart - Maintenance Mode, Coming Soon and Landing Page Builder"
+msgstr "LightStart - 網站維護模式、即將上線通知及到達網頁編輯器"
+
+#: views/settings.php:152
+msgid "Exclude feed, pages, archives or IPs from maintenance mode. Add one slug / IP per line! Comments start with # and can be appended at the end of a line."
+msgstr "要從網站維護模式排除的資訊提供、頁面、彙整或 IP 位址。請每行輸入一個代稱或 IP 位址。如需加入註解，請以 # 為開頭，並附加在行末。"
+
+#: views/settings.php:305
+msgid "Import template"
+msgstr "匯入範本"
+
+#: views/settings.php:257
+msgid "<b>Note</b>: You need at least WP 5.8 to use new generation maintenance pages."
+msgstr "<b>注意</b>: 這個網站必須執行 WordPress 5.8 或更新版本，才能使用新一代網站維護頁面。"
+
+#: views/settings.php:242
+msgid "All Templates"
+msgstr "全部範本"
+
+#: views/settings.php:238
+msgid "Pick a template"
+msgstr "選取範本"
+
+#: views/settings.php:224
+msgid "Edit page"
+msgstr "編輯頁面"
+
+#: views/settings.php:206 views/settings.php:216
+msgid "Select page"
+msgstr "選取頁面"
+
+#: views/settings.php:201
+msgid "You don't have a maintenance page or your Maintenance Page has been deleted. Please select another one from the dropdown below or import a template and a new one will be created."
+msgstr "這個網站沒有網站維護頁面，或網站維護頁面已刪除。請在下方的下拉式選單中擇一選取，或匯入範本建立新的網站維護頁面。"
+
+#: views/wizard.php:113
+msgid "Go to settings"
+msgstr "前往設定頁面"
+
+#: views/wizard.php:112
+msgid "View page"
+msgstr "檢視頁面"
+
+#: views/wizard.php:110
+msgid "Head over to the settings page to activate your Coming soon page"
+msgstr "請前往設定頁面以啟用網站即將上線頁面。"
+
+#: views/wizard.php:109
+msgid "Your page is ready!"
+msgstr "頁面已準備就緒！"
+
+#: views/wizard.php:103
+msgid "I'll skip for now, thanks!"
+msgstr "現在暫時不用，謝謝。"
+
+#: views/wizard.php:101
+msgid "Sign me up"
+msgstr "點擊這裡訂閱"
+
+#: views/wizard.php:98
+msgid "Keep up with feature announcements, promotions, tutorials, and new template releases."
+msgstr "隨時取得功能公告、促銷優惠、教學課程及新範本發佈的消息。"
+
+#: views/wizard.php:97
+msgid "Stay in the loop!"
+msgstr "取得最新資訊！"
+
+#: includes/classes/wp-maintenance-mode.php:210
+msgid "Coming Soon"
+msgstr "網站即將上線"
+
+#: includes/classes/wp-maintenance-mode-admin.php:1055
+msgid "You migrated to use Gutenberg for building the Maintenance page.&emsp;<button id=\"wpmm-rollback\" class=\"button button-link button-link-delete\">Rollback</button>"
+msgstr "這個網站已改為使用區塊編輯器/Gutenberg 外掛建立網站維護頁面。&emsp;<button id=\"wpmm-rollback\" class=\"button button-link button-link-delete\">復原</button>"
+
+#: includes/classes/wp-maintenance-mode-admin.php:1050
+msgid "We upgraded the way maintenance pages are build. Migrate to use Gutenberg for your page!&emsp;<button id=\"wpmm-migrate\" class=\"button button-primary\">Migrate</button>"
+msgstr "我們使用了新的網站維護頁面建立方式。轉換以使用區塊編輯器/Gutenberg 外掛編輯頁面。&emsp;<button id=\"wpmm-migrate\" class=\"button button-primary\">轉換</button>"
+
+#: includes/classes/wp-maintenance-mode-admin.php:1034
+msgid "<strong>Action required</strong>: you don't have a page as Maintenance page. Visit <a href=\"%s\">settings page</a> to select one."
+msgstr "<strong>必要操作:</strong> 這個網站尚未指定網站維護頁面。請前往<a href=\"%s\">設定頁面</a>選取網站維護頁面。"
+
+#: includes/classes/wp-maintenance-mode-admin.php:1023
+msgid "<strong>Action required</strong>: your Maintenance page has been deleted. Visit <a href=\"%s\">settings page</a> to address this issue."
+msgstr "<strong>必要操作:</strong> 這個網站的網站維護頁面已刪除。請前往<a href=\"%s\">設定頁面</a>處理這個問題。"
+
+#: includes/classes/wp-maintenance-mode-admin.php:1022
+msgid "<strong>Action required</strong>: your Maintenance page is drafted. Visit the page to <a href=\"%s\">publish</a> it."
+msgstr "<strong>必要操作:</strong> 這個網站的網站維護頁面仍是草稿。請前往這個頁面的編輯區，然後<a href=\"%s\">發佈</a>這個頁面。"
+
+#: includes/classes/wp-maintenance-mode-admin.php:835
+msgid "The source filed must not be empty."
+msgstr "來源欄位不可留空。"
+
+#: includes/classes/wp-maintenance-mode-admin.php:818
+msgid "Empty field: category."
+msgstr "空白欄位: 分類"
+
+#: includes/classes/wp-maintenance-mode-admin.php:772
+msgid "Empty field: email"
+msgstr "空白欄位: 電子郵件地址"
+
+#: includes/classes/wp-maintenance-mode-admin.php:200
+msgid "Go back"
+msgstr "返回"
+
+#: includes/classes/wp-maintenance-mode-admin.php:199 views/wizard.php:89
+msgid "Continue"
+msgstr "繼續"
+
+#: includes/classes/wp-maintenance-mode-admin.php:198
+msgid "By importing this template, the existing content on your Maintenance Page will be replaced. Do you wish to continue?"
+msgstr "匯入這個範本會更換目前網站維護頁面的現有內容。要繼續進行操作嗎？"
+
+#: includes/classes/wp-maintenance-mode-admin.php:197
+msgid "Import this template?"
+msgstr "是否匯入這個範本？"
+
+#: includes/classes/wp-maintenance-mode-admin.php:194
+msgid "Go to Settings"
+msgstr "前往設定頁面"
+
+#: includes/classes/wp-maintenance-mode-admin.php:193
+msgid "Go to page"
+msgstr "前往頁面"
+
+#: includes/classes/wp-maintenance-mode-admin.php:192
+msgid "The template has been imported to a new draft page. You can take a look and enable it from plugin settings."
+msgstr "範本已匯入成為新的草稿頁面。網站管理員可以檢視頁面內容並在外掛設定頁面啟用這個頁面。"
+
+#: includes/classes/wp-maintenance-mode-admin.php:191
+msgid "The template has been imported!"
+msgstr "範本已匯入。"
+
+#: includes/classes/wp-maintenance-mode-admin.php:167
+msgid "Your coming soon page is ready!"
+msgstr "網站即將上線頁面已準備就緒！"
+
+#: includes/classes/wp-maintenance-mode-admin.php:166
+msgid "Your maintenance page is ready!"
+msgstr "網站維護頁面已準備就緒！"
+
+#: includes/classes/wp-maintenance-mode-admin.php:164
+msgid "Invalid email, please try again."
+msgstr "無效的電子郵件地址，請稍後再試。"
+
+#: includes/classes/wp-maintenance-mode-admin.php:163
+msgid "Done"
+msgstr "完成"
+
+#: includes/classes/wp-maintenance-mode-admin.php:162
+msgid "Importing"
+msgstr "正在匯入..."
+
+#: includes/classes/wp-maintenance-mode-admin.php:161
+msgid "Doing some magic..."
+msgstr "Magic Login Mail "
+
+#: includes/classes/wp-maintenance-mode-admin.php:160
+msgid "Something went wrong, please try again."
+msgstr "執行時發生錯誤。請再試一次。"
+
+#. Author URI of the plugin
+msgid "https://themeisle.com/"
+msgstr "https://themeisle.com/"
+
+#. Author of the plugin
+msgid "Themeisle"
+msgstr "Themeisle"
+
+#: views/sidebar.php:36
+msgid "Recommended"
+msgstr "建議使用"
+
+#: views/maintenance.php:211
+msgctxt "contact form"
+msgid "I've read and agree with the site's privacy policy"
+msgstr "我已閱讀並同意這個網站的隱私權政策"
+
+#: views/maintenance.php:128
+msgctxt "subscribe form"
+msgid "I've read and agree with the site's privacy policy"
+msgstr "我已閱讀並同意這個網站的隱私權政策"
+
+#: views/settings.php:1039
+msgid "REMEMBER: In order to make the privacy policy page accessible you need to add it in General -> Exclude."
+msgstr "請注意，為了讓網站訪客存取因私權政策頁面，請前往 [一般]→[排除項目] 進行設定。"
+
+#: views/settings.php:966
+msgctxt "response for message 8 (click on button one)"
+msgid "Visitor's response will be here."
+msgstr "這裡是網站訪客的回應。"
+
+#: views/settings.php:949
+msgctxt "response for message 7"
+msgid "Visitor's response will be here."
+msgstr "這裡是網站訪客的回應。"
+
+#: views/settings.php:900
+msgctxt "response for message 3"
+msgid "Visitor's response will be here."
+msgstr "這裡是網站訪客的回應。"
+
+#: views/settings.php:857
+msgid "Choose picture"
+msgstr "選取圖片"
+
+#: views/settings.php:856
+msgid "Upload Avatar"
+msgstr "上傳個人頭像"
+
+#: views/settings.php:853
+msgctxt "upload avatar button"
+msgid "Upload"
+msgstr "上傳"
+
+#. translators: Google Analytics documentation url
+#: views/settings.php:788
+msgid "Read about IP anonymization on <a href=\"%s\" rel=\"noreferrer\" target=\"_blank\">Google Analytics</a> docs. It is always enabled on Google Analytics 4."
+msgstr "請閱讀 <a href=\"%s\" rel=\"noreferrer\" target=\"_blank\">Google Analytics</a> 的線上說明文件以了解 IP 去識別化。Google Analytics 4 預設會一律啟用這項功能。"
+
+#: views/settings.php:620
+msgid "You have to use full URLs. For example: if your Twitter username is <code>WordPress</code>, the URL should be <code>https://twitter.com/WordPress</code>."
+msgstr "請輸入完整網址。舉例來說，如果 Twitter 的使用者名稱是 <code>WordPress</code>，完整網址就是 <code>https://twitter.com/WordPress</code>。"
+
+#: views/settings.php:479
+msgid "Do not add <style> tags."
+msgstr "不要加入 <style> 標籤。"
+
+#: views/settings.php:475
+msgid "Custom CSS"
+msgstr "自訂 CSS"
+
+#: views/settings.php:469
+msgid "Other"
+msgstr "其他設定"
+
+#: views/settings.php:430
+msgid "Choose Background"
+msgstr "選取背景圖片"
+
+#: views/settings.php:429
+msgid "Upload Background"
+msgstr "上傳背景圖片"
+
+#: views/settings.php:426
+msgctxt "upload background button"
+msgid "Upload"
+msgstr "上傳"
+
+#: views/settings.php:388
+msgid "\"Dashboard\" and \"Privacy Policy\" links."
+msgstr "[控制台] 及 [隱私權政策] 連結。"
+
+#: views/settings.php:384
+msgid "Footer links"
+msgstr "頁尾連結"
+
+#. translators: 1: shortcode tag, 2: list of compatible services, 3: shortcode
+#. example
+#: views/settings.php:372
+msgid "%1$s - responsive video embed. Compatible with %2$s. Example: %3$s"
+msgstr "%1$s - 嵌入回應式影片。與 %2$s 相容。範例: %3$s"
+
+#. translators: shortcode tag
+#: views/settings.php:366
+msgid "%s - display a login form"
+msgstr "%s - 顯示登入表單"
+
+#: views/settings.php:358
+msgid "See available shortcodes"
+msgstr "檢視可用的短代碼"
+
+#: views/settings.php:357
+msgid "Hide available shortcodes"
+msgstr "隱藏可用的短代碼"
+
+#: includes/classes/wp-maintenance-mode.php:1352
+msgid "Something happened! Please try again later."
+msgstr "執行時發生錯誤。請稍後再試。"
+
+#: includes/classes/wp-maintenance-mode.php:748
+msgctxt "<meta> keywords default"
+msgid "Maintenance Mode"
+msgstr "網站維護模式"
+
+#: includes/classes/wp-maintenance-mode.php:258
+msgctxt "heading default"
+msgid "Maintenance mode"
+msgstr "網站維護模式"
+
+#: includes/classes/wp-maintenance-mode.php:257
+msgctxt "<title> default"
+msgid "Maintenance mode"
+msgstr "網站維護模式"
+
+#. translators: privacy policy url
+#: includes/classes/wp-maintenance-mode-admin.php:1209
+msgid "The plugin detected this Privacy page: %s – <button>Use this url</button>"
+msgstr "外掛偵測到這網站的隱私權政策頁面為 %s – <button>使用這個網址</button>"
+
+#: includes/classes/wp-maintenance-mode-admin.php:204
+msgctxt "image_uploader default button_text"
+msgid "Choose Image"
+msgstr "選取圖片"
+
+#: includes/classes/wp-maintenance-mode-admin.php:203
+msgctxt "image_uploader default title"
+msgid "Upload Image"
+msgstr "上傳圖片"
+
+#: views/settings.php:824
+msgid "If you want to see the list of subscribers, go to Modules &raquo; Subscribe &raquo; Export as CSV."
+msgstr "網站管理員如需查看訂閱者清單，請前往 [模組] 分頁中的 [訂閱] 區段，然後點擊 [匯出成 CSV]。"
+
+#: views/settings.php:1065
+msgid "Subscribe form 'tail'"
+msgstr "訂閱表單結尾資訊"
+
+#: views/settings.php:1060 views/settings.php:1069
+msgid "This will be shown together with the acceptance checkbox below the form"
+msgstr "這個訊息會與表單下方的同意條款核取方塊一起顯示。"
+
+#: views/settings.php:1056
+msgid "Contact form 'tail'"
+msgstr "聯絡表單結尾資訊"
+
+#: views/settings.php:1051
+msgid "Choose how the link will open."
+msgstr "選取開啟目標連結的方式。"
+
+#: views/settings.php:1044
+msgid "P. Policy link target"
+msgstr "隱私權政策連結目標"
+
+#: views/settings.php:1034
+msgid "P. Policy page link"
+msgstr "隱私權政策頁面連結"
+
+#: views/settings.php:1029
+msgid "Label the link that will be shown on frontend footer"
+msgstr "在這裡設定的連結名稱，會顯示於維護模式頁面的頁尾。"
+
+#: views/settings.php:1025
+msgid "Link name"
+msgstr "連結名稱"
+
+#: views/settings.php:1011
+msgid "Here we added some generic texts that you may want to review, change or remove."
+msgstr "我們預先撰寫一份通用內容，以供網站管理員進行檢閱、變更或刪除。"
+
+#: views/settings.php:1010
+msgid "To make the plugin GDPR compliant, fill in the details and enable this section."
+msgstr "要讓這個外掛符合 GDPR 規範，請填寫以下項目，並啟用這項功能。"
+
+#: views/settings.php:988
+msgid "Message 10"
+msgstr "訊息 10"
+
+#: views/settings.php:980
+msgid "Message 9"
+msgstr "訊息 9"
+
+#: views/settings.php:972
+msgid "(click on button two)"
+msgstr "(點擊按鈕 2 的回覆訊息)"
+
+#: views/settings.php:954 views/settings.php:980 views/settings.php:988
+msgid "(click on button one)"
+msgstr "(點擊按鈕 1 的回覆訊息)"
+
+#: views/settings.php:954 views/settings.php:972
+msgid "Message 8"
+msgstr "訊息 8"
+
+#: views/settings.php:947
+msgid "Edit button two"
+msgstr "編輯按鈕 2"
+
+#: views/settings.php:943
+msgid "Edit button one"
+msgstr "編輯按鈕 1"
+
+#: views/settings.php:930
+msgid "Message 7"
+msgstr "訊息 7"
+
+#: views/settings.php:922
+msgid "Message 6"
+msgstr "訊息 6"
+
+#: views/settings.php:914
+msgid "Message 5"
+msgstr "訊息 5"
+
+#: views/settings.php:906
+msgid "Message 4"
+msgstr "訊息 4"
+
+#: views/settings.php:901 views/settings.php:967
+msgid "Edit the placeholder's text"
+msgstr "編輯預留位置文字。"
+
+#: views/settings.php:896 views/settings.php:938 views/settings.php:962
+msgid "Response"
+msgstr "回應"
+
+#: views/settings.php:888
+msgid "Message 3"
+msgstr "訊息 3"
+
+#: views/settings.php:880
+msgid "Message 2"
+msgstr "訊息 2"
+
+#: views/settings.php:872
+msgid "Message 1"
+msgstr "訊息 1"
+
+#: views/settings.php:866
+msgid "Customize Messages"
+msgstr "自訂訊息"
+
+#: views/settings.php:860
+msgid "A 512 x 512 px will work just fine."
+msgstr "建議上傳 512 x 512 px 的圖片。"
+
+#: views/settings.php:847
+msgid "Upload avatar"
+msgstr "上傳機器人代表頭像"
+
+#: views/settings.php:842
+msgid "This name will appear when the bot is typing."
+msgstr "這個名稱會顯示於機器人輸入的訊息旁。"
+
+#: views/settings.php:838
+msgid "Bot Name"
+msgstr "機器人名稱"
+
+#: views/settings.php:823
+msgid "It is also ok if you don't fill in all the conversation steps if you don't need to."
+msgstr "網站管理員可視需要填寫互動交談步驟訊息，不一定要全部填寫。"
+
+#: views/settings.php:822
+msgid "You may also want to use these wildcards: {bot_name} and {visitor_name} to make the conversation even more realistic."
+msgstr "網站管理員可以使用 {bot_name} 及 {visitor_name} 這兩個參數，讓互動交談過程更加真實。"
+
+#: views/settings.php:821
+msgid "Setup the conversation steps to capture more subscribers with this friendly way of asking email addresses."
+msgstr "透過要求使用者提供電子郵件地址的友善方式，建立取得更多訂閱者的互動交談步驟。"
+
+#: views/settings.php:776
+msgid "Enable IP anonymization?"
+msgstr "啟用 IP 位址匿名化"
+
+#. translators: number of subscribers
+#: views/settings.php:575 views/settings.php:745
+msgctxt "settings page"
+msgid "You have %d subscriber"
+msgid_plural "You have %d subscribers"
+msgstr[0] "這個網站有 %d 個訂閱者"
+
+#: views/settings.php:377
+msgid "This text will not be shown when the bot feature is enabled."
+msgstr "啟用互動機器人後，不會顯示這些內容。"
+
+#: views/settings.php:66
+msgid "GDPR"
+msgstr "GDPR"
+
+#: views/settings.php:58
+msgid "Manage Bot"
+msgstr "管理互動機器人"
+
+#: includes/classes/wp-maintenance-mode-admin.php:1218
+msgid "No privacy features detected for your WordPress version. Update WordPress to get this field automatically filled in or type in the URL that points to your privacy policy page."
+msgstr "這個網站的 WordPress 版本沒有隱私權相關功能。請更新 WordPress 版本以自動填寫這個欄位，或是輸入這個網站已建立的隱私權政策頁面網址。"
+
+#: includes/classes/wp-maintenance-mode-admin.php:1215
+msgid "Your Privacy page is pointing to a different URL in WordPress settings. If that's correct ignore this message, otherwise UPDATE VALUE TO NEW URL"
+msgstr "這個網站的〈隱私權政策〉頁面指向了與 WordPress 設定不同的網址。如果這項設定是正確的，請忽略這個訊息，然後請更新為正確網址。"
+
+#: includes/classes/wp-maintenance-mode-admin.php:1205
+msgid "Your WordPress version supports Privacy settings but you haven't set any privacy policy page yet. Go to Settings ➡ Privacy to set one."
+msgstr "這個網站所安裝的 WordPress 版本支援 [隱私權] 設定，但這個網站尚未設定〈隱私權政策〉頁面。請前往 [設定] ➡ [隱私權] 進行設定。"
+
+#: includes/classes/wp-maintenance-mode-admin.php:941
+msgid "WPMM: The file data.js could not be written, the bot will not work correctly."
+msgstr "WPMM: 由於無法將資料寫入 data.js，因此互動機器人無法正確執行。"
+
+#. translators: number of subscribers
+#: includes/classes/wp-maintenance-mode-admin.php:311
+msgctxt "ajax response"
+msgid "You have %d subscriber"
+msgid_plural "You have %d subscribers"
+msgstr[0] "這個網站有 %d 個訂閱者"
+
+#: includes/classes/wp-maintenance-mode.php:800
+msgid "Please type in a valid email address."
+msgstr "請輸入有效的電子郵件地址。"
+
+#: includes/classes/wp-maintenance-mode.php:799
+msgid "Please type in your name."
+msgstr "請輸入您的大名。"
+
+#: includes/classes/wp-maintenance-mode.php:329
+msgid "This form collects your email so that we can add you to our newsletter list. Check out our <a href=\"#\">Privacy Policy</a> page to fully understand how we protect and manage your submitted data."
+msgstr "這份表單會收集您輸入的電子郵件地址，我們使用這些資料寄送電子報給您。請參閱我們的〈<a href=\"#\">隱私權政策</a>〉頁面，進一步了解我們如何保護及管理您傳送至本站的資料。"
+
+#: includes/classes/wp-maintenance-mode.php:328
+msgid "This form collects your name and email so that we can reach you back. Check out our <a href=\"#\">Privacy Policy</a> page to fully understand how we protect and manage your submitted data."
+msgstr "這份表單會收集您輸入的名字及電子郵件地址，我們使用這些資料與您保持聯絡。請參閱我們的〈<a href=\"#\">隱私權政策</a>〉頁面，進一步了解我們如何保護及管理您傳送至本站的資料。"
+
+#: includes/classes/wp-maintenance-mode.php:325
+msgid "Privacy Policy"
+msgstr "隱私權政策"
+
+#: includes/classes/wp-maintenance-mode.php:320
+#: includes/classes/wp-maintenance-mode.php:803
+msgid "Type your email here…"
+msgstr "請輸入您的電子郵件地址..."
+
+#: includes/classes/wp-maintenance-mode.php:319
+msgid "Boring"
+msgstr "不需要"
+
+#: includes/classes/wp-maintenance-mode.php:318
+msgid "Tell me more"
+msgstr "進一步了解"
+
+#: includes/classes/wp-maintenance-mode.php:317
+#: includes/classes/wp-maintenance-mode.php:802
+msgid "Type your name here…"
+msgstr "請輸入您的大名..."
+
+#: includes/classes/wp-maintenance-mode.php:314
+msgid "Have a great day!"
+msgstr "祝您一切順利！"
+
+#: includes/classes/wp-maintenance-mode.php:313
+msgid "Got it! Thank you and see you soon here!"
+msgstr "已收到您的資訊，十分感謝。希望很快在這裡再次見到您。"
+
+#: includes/classes/wp-maintenance-mode.php:312
+msgid "Sad to hear that, {visitor_name} :( See you next time…"
+msgstr "{visitor_name}，很遺憾得知您的這項決定，期待有機會再見..."
+
+#: includes/classes/wp-maintenance-mode.php:311
+msgid "Cool! Please leave your email here and I will send you a message when it's ready."
+msgstr "太好了！請留下您的電子郵件地址，我會在網站服務上線後，第一時間通知您。"
+
+#: includes/classes/wp-maintenance-mode.php:310
+msgid "Would you like to be first to see it?"
+msgstr "您想成為第一個看到網站正式上線的使用者嗎？"
+
+#: includes/classes/wp-maintenance-mode.php:309
+msgid "I know, you are very excited to see it, but we need a few days to finish it."
+msgstr "我了解您對這個網站的期待，但是我們離完工上線還需要幾天的時間。"
+
+#: includes/classes/wp-maintenance-mode.php:308
+msgid "How you can see, our website will be launched very soon."
+msgstr "如您所見，這個網站即將上線提供服務。"
+
+#: includes/classes/wp-maintenance-mode.php:307
+msgid "Nice to meet you here, {visitor_name}!"
+msgstr "{visitor_name}，很高興認識您！"
+
+#: includes/classes/wp-maintenance-mode.php:306
+msgid "What is your name?"
+msgstr "您的大名是？"
+
+#: includes/classes/wp-maintenance-mode.php:305
+msgid "I have just a few questions."
+msgstr "這裡有幾個問題需要您的回覆。"
+
+#: includes/classes/wp-maintenance-mode.php:304
+msgid "Hey! My name is {bot_name}, I'm the owner of this website and I'd like to be your assistant here."
+msgstr "你好！我是 {bot_name}，是這個網站的管理員，在此為您提供必要的協助。"
+
+#: views/settings.php:803
+msgid "Allowed formats: UA-XXXXXXXX, UA-XXXXXXXX-XXXX, G-XXXXXXXX. Eg: UA-12345678-1 is valid"
+msgstr "追蹤 ID 正確格式為 UA-XXXXXXXX、UA-XXXXXXXX-XXXX 或 G-XXXXXXXX。舉例來說，UA-12345678-1 便是一個有效的追蹤 ID。"
+
+#: includes/classes/wp-maintenance-mode-admin.php:258
+#: includes/classes/wp-maintenance-mode-admin.php:305
+#: includes/classes/wp-maintenance-mode-admin.php:395
+#: includes/classes/wp-maintenance-mode-admin.php:628
+#: includes/classes/wp-maintenance-mode-admin.php:660
+#: includes/classes/wp-maintenance-mode-admin.php:694
+#: includes/classes/wp-maintenance-mode-admin.php:748
+#: includes/classes/wp-maintenance-mode-admin.php:768
+#: includes/classes/wp-maintenance-mode-admin.php:814
+#: includes/classes/wp-maintenance-mode-admin.php:845
+#: includes/classes/wp-maintenance-mode-admin.php:871
+#: includes/classes/wp-maintenance-mode-admin.php:1089
+#: includes/classes/wp-maintenance-mode.php:1292
+#: includes/classes/wp-maintenance-mode.php:1320
+msgid "Security check."
+msgstr "安全性檢查。"
+
+#: includes/classes/wp-maintenance-mode-admin.php:253
+#: includes/classes/wp-maintenance-mode-admin.php:300
+#: includes/classes/wp-maintenance-mode-admin.php:385
+#: includes/classes/wp-maintenance-mode-admin.php:618
+#: includes/classes/wp-maintenance-mode-admin.php:655
+#: includes/classes/wp-maintenance-mode-admin.php:689
+#: includes/classes/wp-maintenance-mode-admin.php:743
+#: includes/classes/wp-maintenance-mode-admin.php:763
+#: includes/classes/wp-maintenance-mode-admin.php:809
+#: includes/classes/wp-maintenance-mode-admin.php:840
+#: includes/classes/wp-maintenance-mode-admin.php:866
+#: includes/classes/wp-maintenance-mode-admin.php:1084
+msgid "The nonce field must not be empty."
+msgstr "單次有效隨機碼不可留空。"
+
+#. translators: link to plugin reviews page on wp.org
+#: includes/classes/wp-maintenance-mode-admin.php:1137
+msgid "If you like <strong>Lightstart</strong> please leave us a %s rating. A huge thank you from WP Maintenance Mode makers in advance!"
+msgstr "如果 <strong>Lightstart</strong> 對網站確有幫助，請給它 %s 評等。WP Maintenance Mode 開發團隊先行在此致謝。"
+
+#: views/settings.php:581 views/settings.php:751
+msgid "Empty subscribers list"
+msgstr "清空訂閱者清單"
+
+#: views/settings.php:140
+msgid "If you want to redirect a user (with no access to Dashboard/Backend) to a URL (different from WordPress Dashboard URL) after login, then define a URL (incl. https://)"
+msgstr "如果網站管理員要將網站維護模式期間沒有存取 [控制台]/管理後台的使用者，在使用者登入後重新導向至有別於 WordPress [控制台] 連結的頁面，請在這裡設定包含 https:// 的目標網址。"
+
+#: views/settings.php:119
+msgid "Which user role is allowed to access the frontend of the website? Administrators will always have access."
+msgstr "選取在啟用網站維護模式期間可存取網站前端的使用者角色。請注意，[網站管理員] 使用者者色不受這項設定限制，擁有網站最高存取權限。"
+
+#: views/settings.php:106
+msgid "Which user role is allowed to access the backend of the website? Administrators will always have access."
+msgstr "選取在啟用網站維護模式期間可存取管理後台的使用者角色。請注意，[網站管理員] 使用者者色不受這項設定限制，擁有網站最高存取權限。"
+
+#: views/settings.php:101 views/settings.php:114
+msgid "Select role(s)"
+msgstr "選取使用者角色"
+
+#: views/maintenance.php:126 views/maintenance.php:190
+#: views/maintenance.php:193 views/maintenance.php:201
+#: views/maintenance.php:209
+msgid "This field is required."
+msgstr "這是必填欄位。"
+
+#: views/contact.php:103
+msgid "Content:"
+msgstr "內容:"
+
+#: views/contact.php:88
+msgid "Email:"
+msgstr "電子郵件地址:"
+
+#: views/contact.php:76
+msgid "Name:"
+msgstr "名字:"
+
+#. translators: name of the blog
+#: views/contact.php:54
+msgid "You have been contacted via %s."
+msgstr "訪客已透過《%s》與您聯絡。"
+
+#: includes/classes/wp-maintenance-mode-admin.php:1081
+msgid "Notice key cannot be empty."
+msgstr "通知金鑰不可留空。"
+
+#: includes/classes/wp-maintenance-mode-admin.php:401
+#: includes/classes/wp-maintenance-mode-admin.php:634
+msgid "The tab slug must exist."
+msgstr "必須設定分頁代稱。"
+
+#: includes/classes/wp-maintenance-mode-admin.php:390
+#: includes/classes/wp-maintenance-mode-admin.php:623
+msgid "The tab slug must not be empty."
+msgstr "分頁代稱不可留空。"
+
+#: includes/classes/wp-maintenance-mode-admin.php:249
+#: includes/classes/wp-maintenance-mode-admin.php:296
+#: includes/classes/wp-maintenance-mode-admin.php:380
+#: includes/classes/wp-maintenance-mode-admin.php:613
+msgid "You do not have access to this resource."
+msgstr "目前的登入身分沒有存取這項資源的權限。"
+
+#. Description of the plugin
+msgid "Adds a splash page to your site that lets visitors know your site is down for maintenance. It's perfect for a coming soon or landing page."
+msgstr "這個外掛會新增能讓網站訪客得知目前網站因維護而暫停服務的訊息顯示畫面，非常適合使用於網站即將上線之際或到達網頁。"
+
+#: views/sidebar.php:25
+msgid "GitHub"
+msgstr "GitHub"
+
+#: views/sidebar.php:24
+msgid "Twitter"
+msgstr "Twitter"
+
+#: views/sidebar.php:23
+msgid "Website"
+msgstr "網站"
+
+#: views/sidebar.php:22
+msgid "Author"
+msgstr "開發者"
+
+#: views/sidebar.php:12
+msgid "Plugin Info"
+msgstr "外掛資訊"
+
+#: views/settings.php:799
+msgid "Tracking code"
+msgstr "追蹤 ID"
+
+#: views/settings.php:765
+msgid "Use Google Analytics?"
+msgstr "使用 Google Analytics"
+
+#: views/settings.php:759
+msgid "Google Analytics"
+msgstr "Google Analytics"
+
+#: views/settings.php:724
+msgid "Fold - Unfold"
+msgstr "折疊/展開"
+
+#: views/settings.php:723
+msgid "Zoom - Zoomed"
+msgstr "放大/縮小"
+
+#: views/settings.php:722
+msgid "Move top - Move bottom"
+msgstr "移至最前端/最末端"
+
+#: views/settings.php:718
+msgid "Effects"
+msgstr "動畫效果"
+
+#: views/settings.php:710
+msgid "Email address"
+msgstr "電子郵件地址"
+
+#: views/settings.php:699
+msgid "Show contact?"
+msgstr "顯示聯絡方式"
+
+#: views/settings.php:693
+msgid "Contact"
+msgstr "聯絡方式"
+
+#: views/settings.php:613
+msgid "Choose how the links will open."
+msgstr "設定連結的開啟方式。"
+
+#: views/settings.php:611 views/settings.php:1049
+msgid "Same page"
+msgstr "相同分頁"
+
+#: views/settings.php:610 views/settings.php:1048
+msgid "New page"
+msgstr "在新分頁中開啟"
+
+#: views/settings.php:606
+msgid "Links target?"
+msgstr "連結開啟方式"
+
+#: views/settings.php:595
+msgid "Show social networks?"
+msgstr "顯示社交網路服務"
+
+#: views/settings.php:589
+msgid "Social Networks"
+msgstr "社交網路服務"
+
+#: views/settings.php:580 views/settings.php:750
+msgid "Export as CSV"
+msgstr "匯出成 CSV"
+
+#: views/settings.php:568 views/settings.php:738
+msgid "Stats"
+msgstr "統計資料"
+
+#: views/settings.php:548
+msgid "Show subscribe?"
+msgstr "顯示訂閱功能"
+
+#: views/settings.php:533
+msgid "Color"
+msgstr "色彩"
+
+#: views/settings.php:528
+msgid "Minutes"
+msgstr "分鐘"
+
+#: views/settings.php:527
+msgid "Hours"
+msgstr "小時"
+
+#: views/settings.php:526
+msgid "Days"
+msgstr "天"
+
+#: views/settings.php:523
+msgid "Countdown (remaining time)"
+msgstr "倒數計時 (剩餘時間)"
+
+#: views/settings.php:515
+msgid "Start date"
+msgstr "開始日期"
+
+#: views/settings.php:504
+msgid "Show countdown?"
+msgstr "顯示倒數計時"
+
+#: views/settings.php:498
+msgid "Countdown"
+msgstr "倒數計時"
+
+#. translators: free photos url
+#: views/settings.php:445
+msgid "* source <a href=\"%s\" target=\"_blank\">Free Photos</a>"
+msgstr "* 圖片來源: <a href=\"%s\" target=\"_blank\">免費圖片</a>"
+
+#: views/settings.php:438
+msgid "Choose background"
+msgstr "選取背景圖片"
+
+#: views/settings.php:433
+msgid "Backgrounds should have 1920x1280 px size."
+msgstr "背景圖片建議尺寸最小為 1920x1280 px。"
+
+#: views/settings.php:420
+msgid "Upload background"
+msgstr "上傳背景圖片"
+
+#: views/settings.php:412
+msgid "Choose color"
+msgstr "選取色彩"
+
+#: views/settings.php:406
+msgid "Predefined background"
+msgstr "外掛內建的背景圖片"
+
+#: views/settings.php:405
+msgid "Uploaded background"
+msgstr "上傳的背景圖片"
+
+#: views/settings.php:404
+msgid "Custom color"
+msgstr "自訂色彩"
+
+#: views/settings.php:400
+msgid "Choose type"
+msgstr "選取背景類型"
+
+#: views/settings.php:394
+msgid "Background"
+msgstr "頁面背景"
+
+#: views/settings.php:337 views/settings.php:559
+msgid "Text"
+msgstr "說明內容"
+
+#: views/settings.php:328
+msgid "Heading"
+msgstr "內容標題"
+
+#: views/settings.php:320
+msgid "Title (HTML tag)"
+msgstr "頁面標題 (可使用 HTML 標籤)"
+
+#: views/settings.php:185 views/settings.php:486 views/settings.php:811
+#: views/settings.php:999 views/settings.php:1077
+msgid "Reset settings"
+msgstr "重設設定"
+
+#: views/network-settings.php:43 views/settings.php:184 views/settings.php:485
+#: views/settings.php:810 views/settings.php:998 views/settings.php:1076
+msgid "Save settings"
+msgstr "儲存設定"
+
+#: views/settings.php:177
+msgid "Do you want to add a link to the dashboard on your maintenance mode page?"
+msgstr "設定是否在網站維護模式頁面顯示 [控制台] 連結。"
+
+#: views/settings.php:170
+msgid "Dashboard link"
+msgstr "[控制台] 連結"
+
+#: views/settings.php:164
+msgid "Do you want to see notices when maintenance mode is activated?"
+msgstr "設定是否在網站維護模式啟用期間，於管理後台中顯示通知訊息。"
+
+#: views/settings.php:157
+msgid "Notice"
+msgstr "管理後台通知訊息"
+
+#: views/settings.php:145
+msgid "Exclude"
+msgstr "排除項目"
+
+#: views/settings.php:136
+msgid "Redirection"
+msgstr "登入後重新導向"
+
+#: views/settings.php:131
+msgid "The robots meta tag lets you use a granular, page-specific approach to control how an individual page should be indexed and served to users in search results."
+msgstr "搜尋機器人中繼標記能讓網站管理員以精細、指定頁面的方式，控制個別頁面要不要納入索引以及是否將搜索結果提供給使用者。"
+
+#: views/settings.php:124
+msgid "Robots Meta Tag"
+msgstr "搜尋機器人中繼標記"
+
+#: views/settings.php:111
+msgid "Frontend Role"
+msgstr "可存取網站前端的使用者角色"
+
+#: views/settings.php:98
+msgid "Backend Role"
+msgstr "可存取管理後台的使用者角色"
+
+#: views/settings.php:93
+msgid "Allow Search Bots to bypass maintenance mode?"
+msgstr "設定是否開放搜尋機器人略過網站維護模式。"
+
+#: views/settings.php:91 views/settings.php:162 views/settings.php:175
+#: views/settings.php:509 views/settings.php:553 views/settings.php:600
+#: views/settings.php:704 views/settings.php:770 views/settings.php:781
+msgid "No"
+msgstr "否"
+
+#: views/settings.php:90 views/settings.php:161 views/settings.php:174
+#: views/settings.php:508 views/settings.php:552 views/settings.php:599
+#: views/settings.php:703 views/settings.php:769 views/settings.php:780
+msgid "Yes"
+msgstr "是"
+
+#: views/settings.php:86
+msgid "Bypass for Search Bots"
+msgstr "開放搜尋機器人"
+
+#: views/settings.php:81 views/settings.php:833 views/settings.php:1020
+msgid "Deactivated"
+msgstr "已停用"
+
+#: views/settings.php:80 views/settings.php:832 views/settings.php:1019
+msgid "Activated"
+msgstr "已啟用"
+
+#: views/network-settings.php:33 views/settings.php:77 views/settings.php:829
+#: views/settings.php:1016
+msgid "Status"
+msgstr "狀態"
+
+#: views/settings.php:51
+msgid "Modules"
+msgstr "模組"
+
+#: views/settings.php:45
+msgid "Design"
+msgstr "設計"
+
+#: views/settings.php:38
+msgid "General"
+msgstr "一般"
+
+#: includes/classes/wp-maintenance-mode-admin.php:1263
+msgid "Settings saved."
+msgstr "設定已儲存。"
+
+#: views/maintenance.php:239
+msgid "Dashboard"
+msgstr "控制台"
+
+#: views/maintenance.php:227
+msgid "Contact us"
+msgstr "聯絡我們"
+
+#: includes/classes/wp-maintenance-mode.php:804 views/maintenance.php:220
+msgid "Send"
+msgstr "傳送"
+
+#: views/maintenance.php:201
+msgid "Your message"
+msgstr "聯絡內容"
+
+#: views/maintenance.php:193
+msgid "E-mail"
+msgstr "電子郵件地址"
+
+#: views/maintenance.php:190 views/sidebar.php:16
+msgid "Name"
+msgstr "名稱"
+
+#: views/maintenance.php:121 views/settings.php:542 views/settings.php:732
+msgid "Subscribe"
+msgstr "訂閱"
+
+#: views/maintenance.php:119
+msgid "your e-mail..."
+msgstr "請輸入電子郵件地址"
+
+#: views/loginform.php:17
+msgid "Login"
+msgstr "登入"
+
+#: includes/classes/wp-maintenance-mode.php:1355
+msgid "Your email was sent to the website administrator. Thanks!"
+msgstr "您填寫的聯絡內容已傳送至網站管理員信箱，感謝您的意見。"
+
+#: includes/classes/wp-maintenance-mode.php:1330
+msgid "Message via contact"
+msgstr "聯絡訊息"
+
+#: includes/classes/wp-maintenance-mode.php:1316
+msgid "All fields required."
+msgstr "全部欄位均為必填。"
+
+#: includes/classes/wp-maintenance-mode.php:1297
+msgid "You successfully subscribed. Thanks!"
+msgstr "感謝您的訂閱！"
+
+#: includes/classes/wp-maintenance-mode.php:1288
+#: includes/classes/wp-maintenance-mode.php:1323 views/maintenance.php:193
+msgid "Please enter a valid email address."
+msgstr "請輸入有效的電子郵件地址。"
+
+#: includes/classes/wp-maintenance-mode.php:734
+msgid "Maintenance Mode"
+msgstr "網站維護模式"
+
+#. translators: plugin settings url
+#: includes/classes/wp-maintenance-mode.php:462
+msgid "WP Maintenance Mode plugin was relaunched and you MUST revise <a href=\"%s\">settings</a>."
+msgstr "WP Maintenance Mode 外掛已重新啟動，網站管理員必須確認<a href=\"%s\">設定</a>是否正確。"
+
+#: includes/classes/wp-maintenance-mode.php:280
+msgid "Notify me when it's ready"
+msgstr "網站上線時通知我"
+
+#: includes/classes/wp-maintenance-mode.php:260
+msgid "<p>Sorry for the inconvenience.<br />Our website is currently undergoing scheduled maintenance.<br />Thank you for your understanding.</p>"
+msgstr "<p>造成不便，實在非常抱歉。<br />這個網站目前正在進行例行性維護。<br />感謝你的體諒與支持。</p>"
+
+#: includes/classes/wp-maintenance-mode-admin.php:714
+#: includes/classes/wp-maintenance-mode.php:224
+msgid "Maintenance Page"
+msgstr "網站維護頁面"
+
+#. translators: plugin settings url
+#: includes/classes/wp-maintenance-mode-admin.php:1008
+msgid "The Maintenance Mode is <strong>active</strong>. Please don't forget to <a href=\"%s\">deactivate</a> as soon as you are done."
+msgstr "[網站維護模式] <strong>已啟用</strong>。完成網站相關維護工作後，請記得儘快<a href=\"%s\">停用</a>外掛。"
+
+#: includes/classes/wp-maintenance-mode-admin.php:974
+msgid "Settings"
+msgstr "設定"

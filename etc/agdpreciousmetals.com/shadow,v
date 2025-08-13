@@ -1,0 +1,130 @@
+head	1.8;
+access;
+symbols;
+locks
+	austra17:1.8; strict;
+comment	@# @;
+
+
+1.8
+date	2015.03.23.08.39.27;	author austra17;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2014.10.30.09.08.15;	author austra17;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2014.10.30.09.08.15;	author austra17;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2014.05.13.11.00.02;	author austra17;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2014.05.13.10.58.45;	author austra17;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2014.05.13.10.57.18;	author austra17;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2014.03.25.11.13.22;	author austra17;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2014.03.25.11.13.22;	author austra17;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.8
+log
+@"Modified by /usr/local/cpanel/cpanel "
+@
+text
+@info:$6$Rgt845vA.18Fy1ht$EHW0VaXtYtbfvKuMiin3Sw6AQO1FACK5BBR58mueUEuYxAHczOreDPEpGO2Ei3mgc1SSG5sC6l3ie8URRzTsb/:16154::::::
+accounts:$6$kMan4q8mOsDYicNa$iYytSGXduOHhGxpnyFxOXF0RI6kWWpnPy1BJ64mY7lDhZnOv8uKfVv1IdFjVulK.QmJOxEWPFTt1g2PEsLoul1:16203::::::
+dimitri:$6$rmcT7znB9IUCqmIZ$9xE0OmcxzAxPVz/R8r65af7iDh0l8RO/Wl8jaBDl9DKG6JXJNkOIMGffiTwZera0BeYdNulkjcRQBUIgg5MhO.:16203::::::
+demetris:$6$s9fONnu96JTtrzmd$.AAeK5uMN4Ixgyune3nYlttuXa2j4VVI8tfvW8qlCYZgxnwEEQYTFbEh1F0TXuFNBziT5Gwci7KxeZnbLeEAl/:16203::::::
+sales:$6$MssKFODke/bsK6fw$btYo6XvV3mcjqzvq6Nme1kK.tasny4Jqx1vl4kgCWRiY8qj/SOCG/Bh1h3Ml6eSL2cKMxWcjroAQXLpKXZBJu1:16373::::::
+stuart:$6$x4b3KdLoWyVUForF$BDpEsVwGr2.2qikQMAHAxUW4bvAB2lB5rWV5XghtEa4MaKf2eNtxMQXoXeaZfLs.TrgmekzSmj4wjgy6Kazyw0:16517::::::
+@
+
+
+1.7
+log
+@"Modified by /usr/local/cpanel/cpanel "
+@
+text
+@d6 1
+@
+
+
+1.6
+log
+@"Modified by /usr/local/cpanel/cpanel "
+@
+text
+@d5 1
+@
+
+
+1.5
+log
+@"Modified by /usr/local/cpanel/cpanel "
+@
+text
+@d2 1
+a2 1
+accounts:$6$ZYg77bqkI3FXTiom$..kbQJ9xbyDGyfRGWTnvRvRfIULq8CmS0NvqZ9VVWoCWmxF6D2N5l2izAA7vDkWq76bcvgtTlqe/VR8QOvDID1:16203::::::
+@
+
+
+1.4
+log
+@"Modified by /usr/local/cpanel/cpanel "
+@
+text
+@d4 1
+@
+
+
+1.3
+log
+@"Modified by /usr/local/cpanel/cpanel "
+@
+text
+@d3 1
+@
+
+
+1.2
+log
+@"Modified by /usr/local/cpanel/cpanel "
+@
+text
+@d2 1
+@
+
+
+1.1
+log
+@"Modified by /usr/local/cpanel/cpanel "
+@
+text
+@d1 1
+@

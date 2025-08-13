@@ -1,0 +1,396 @@
+/************************************************
+*	Media Queries								*
+************************************************/
+@media only screen and (max-width: 1365px) {
+
+body {
+	font-size: 16px;
+	line-height: 1.3;
+	}
+p {
+	padding: 8px 0px;
+	}
+h1 {
+	font-size: 34px;
+	}
+h2 {
+	font-size: 30px;
+	}
+h3 {
+	font-size: 26px;
+	}
+h4 {
+	font-size: 22px;
+	}
+h5 {
+	font-size: 20px;
+	}
+h6 {
+	font-size: 18px;
+	}
+
+}
+@media only screen and (max-width: 1024px) {
+/* Theme iPad */
+
+.banner_content:before,
+.banner_content:after,
+.about_wrap:before,
+.about_wrap:after,
+.footer_page_wrap:before,
+.footer_page_wrap:after{
+	display:none;
+}
+.home-banner{
+	min-height:0;
+	padding-bottom:0px;
+}
+.banner_content_wrap{
+	position:static;
+	padding:5%;
+}
+.banner_content{
+	margin-bottom:0px;
+}
+
+.content {
+	padding: 0px 32px;
+}
+
+/*Footer*/
+.footer_table_cell{
+	padding:24px;
+	width:33.33%;
+}
+
+}
+
+/* iPad Portrait Styles */
+@media only screen and (max-width: 960px) {
+
+.sidebar h6, .footer h6{
+	font-size:16px;
+}
+
+/*Gallery*/
+.gallery-item{
+	width:25% !important;
+}
+.gallery br{
+	display:none !important;
+}
+
+}
+
+/* iPhone */
+@media only screen and (max-width: 767px) {
+
+body {
+	line-height: 1.2;
+	}
+p {
+	padding: 8px 0px;
+	}
+h1 {
+	font-size: 22px;
+	}
+h2 {
+	font-size: 21px;
+	}
+h3 {
+	font-size: 20px;
+	}
+h4 {
+	font-size: 19px;
+	}
+h5 {
+	font-size: 18px;
+	}
+h6 {
+	font-size: 17px;
+	}
+
+/*Header*/
+#header .header_left{
+	width:170px;
+	padding:24px 0px;
+}
+#header .header_mid{
+	width:auto;
+	padding:24px 0px;
+}
+#header .header_right{
+	width:80px;
+	padding:24px 0px;
+}
+#header_menu ul.menu{
+	font-size:14px;
+}
+
+.homeSection{
+	display:block;
+	direction:ltr;
+}
+.homeSectionCell{
+	display:block;
+	width:100%;
+	overflow:visible;
+}
+
+/*Home Banner*/
+#home{
+	padding-top:24px;
+}
+	.BannerTable, .BannerImg, .PriceCalc{
+		display: block;
+		width:100%;
+	}
+.banner_title_2{
+	font-size:120px;
+}
+.LiveGoldPrice{
+	position:static;
+	width:100%;
+	padding: 5%;
+}
+.GoldPriceList{
+	padding-top:5px;
+}
+.GoldPriceList li{
+	padding:4px 0px;
+	font-size:16px;
+}
+.spotPrice_title, .BannerNotice{
+	font-size:16px;
+}
+
+/*Section 3*/
+.latest_news_table{
+	display:block;
+	padding:20px 0px;
+}
+.latest_news_cell{
+	display:block;
+	width:100%;
+	border-right:none;
+	border-bottom:1px solid rgba(255, 255, 255, 0.2);
+}
+.latest_news_cell:last-child{
+	border-bottom:none;
+}
+.latest_news_holder{
+	padding:20px 0px;
+}
+
+/*Section 4*/
+#app_img img{
+	position:static;
+}
+
+/*page_banner*/
+.page_banner_wrap{
+	padding:40px 0px;
+}
+.page_title{
+	padding:0px;
+}
+
+/*Insta*/
+.insta_title_wrap{
+	padding:5% 10%;
+}
+.insta_table{
+	width:100%;
+	display:block;
+}
+.insta_cell{
+	display:block;
+	width:100%;
+}
+.insta_feed ul li{
+	width:33.33%;
+}
+
+/*Forms & Button*/
+form input[type="url"], form input[type="tel"], form input[type="email"], form input[type="text"], form input[type="password"], form input[type="number"], form input[type="search"], form textarea, form select{
+	padding: 10px;
+	margin: 6px 0 15px;
+	font-size:16px;
+}
+a.button, .reply a, #searchsubmit, #prevLink a, #nextLink a, .more-link,
+#submit, #comments #respond input#submit, .container .gform_wrapper input.button, input[type="submit"], button{
+	font-size:16px;
+}
+
+/*Conatct form Coulmns*/
+.form_col{
+	width:100%;
+	margin:5px 0px;
+}
+.form_half_col, .form_full_col{
+	margin-bottom:10px;
+	width:100%;
+}
+
+/*general*/
+.content {
+	padding: 0px 24px;
+	}
+.postarea,
+.postarea.middle,
+.postarea.full,
+.postarea.wide {
+	padding: 24px 0px;
+	}
+i.format-icon {
+	display: none;
+	}
+.blog-holder, .archive-holder {
+	margin-bottom: 24px;
+	}
+.blog-holder .article,
+.archive-holder .article {
+	padding: 12px 18px;
+	}
+.blog-holder .post-meta,
+.archive-holder .post-meta {
+	padding: 12px;
+	}
+.blog-holder .post-meta p,
+.archive-holder .post-meta p {
+	font-size: 0.9em;
+	}
+.archive-column {
+	width: 100%;
+	padding-right: 0px;
+	overflow: hidden;
+	}
+.archive-column h6 {
+	margin-top: 12px;
+	}
+.sidebar {
+	padding: 24px;
+	}
+.sidebar.left {
+	display: none;
+	}
+
+/*Footer*/
+.footer_table{
+	display:block;
+}
+.footer_table_cell.footer_left,
+.footer_table_cell.footer_mid,
+.footer_table_cell.footer_right{
+	display:block;
+	width:100%;
+	padding:20px 0px;
+	border:none !important;
+	text-align:center;
+}
+.footer_widget.fw_left,
+.footer_widget.fw_mid,
+.footer_widget.fw_right{
+	text-align:center;
+}
+.footer{
+	padding:24px 0px;
+}
+.footer-information{
+	text-align:center;
+}
+
+/* Grid */
+body {
+	-webkit-text-size-adjust: none;
+	-ms-text-size-adjust: none;
+	width: 100%;
+	min-width: 0;
+	margin-left: 0;
+	margin-right: 0;
+	padding-left: 0;
+	padding-right: 0;
+	}
+.row {
+	width: 100%;
+	min-width: 0;
+	margin-left: 0;
+	margin-right: 0;
+	overflow: visible !important;
+	}
+.row .single,
+.row .half,
+.row .third,
+.row .fourth {
+	width: 100%;
+	float:none;
+	}
+.row .row .column, .row .row .columns {
+	padding: 0;
+	}
+.column, .columns {
+	width: auto !important;
+	float: none;
+	margin-left: 0;
+	margin-right: 0;
+	}
+.column:last-child, .columns:last-child {
+	margin-right: 0;
+	float: none;
+	}
+[class*="column"] + [class*="column"]:last-child {
+	float: none;
+	}
+[class*="column"]:before, [class*="column"]:after {
+	content:"";
+	display:table;
+	}
+[class*="column"]:after {
+	clear: both;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+
+/*Gallery*/
+.gallery-item{
+	width:33.33% !important;
+}
+.gallery-icon{
+	margin:5px !important;
+}
+
+}
+
+@media only screen and (max-width: 480px) {
+
+/*Header*/
+#header .header_left{
+	width:120px;
+}
+#header .header_mid{
+	width:auto;
+}
+#header .header_right{
+	width:45px;
+}
+
+/*Gallery*/
+.gallery-item{
+	width:50% !important;
+}
+
+.insta_feed ul li{
+	width:50%;
+}
+.header_right_menu{
+	display:block;
+}
+.header_right_menu span{
+	width:100%;
+	display:block;
+	text-align:center;
+}
+
+
+}
